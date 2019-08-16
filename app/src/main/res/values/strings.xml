@@ -1,0 +1,409 @@
+<resources>
+    <string name="app_name">Movie Catalogue (UI/UX)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movie">Movie</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="release_date">Release Date</string>
+    <string name="directed_by">Directed By</string>
+    <string name="produced_by">Produced By</string>
+    <string name="screenplay_by">Screenplay By</string>
+    <string name="based_on">Based On</string>
+    <string name="starring">Starring</string>
+    <string name="cinematography">Cinematography</string>
+    <string name="edited_by">Edited By</string>
+    <string name="production_companies">Production Companies</string>
+    <string name="distributed_by">Distributed By</string>
+    <string name="running_time">Running Time</string>
+    <string name="ratings">Ratings</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="music_by">Music By</string>
+    <string name="photo">Photo</string>
+    <string name="share">Share</string>
+    <string name="watch">Watch</string>
+
+    <string-array name="data_title_movie">
+        <item>Avengers: Infinity Wars</item>
+        <item>Deadpool</item>
+        <item>Dragon Ball Super: Broly</item>
+        <item>Venom</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Avengers: End Game</item>
+        <item>Guardians Of The Galaxy Vol. 1</item>
+        <item>Spider-Man: Far From Home</item>
+        <item>One Piece Film: Z</item>
+        <item>Kimi No Nawa</item>
+        <!--Tv Show Data-->
+        <item>Breaking Bad</item>
+        <item>Fullmetal Alchemist Brotherhood</item>
+        <item>Game Of Thrones</item>
+        <item>Gintama</item>
+        <item>Dare Devil</item>
+        <item>Sherlock</item>
+        <item>Shingeki No Kyojin</item>
+        <item>The Walking Dead</item>
+        <item>One Piece</item>
+        <item>Steins Gate</item>
+    </string-array>
+
+    <string-array name="data_ratings_movie">
+        <item>8.5 / 10.0</item>
+        <item>8.0 / 10.0</item>
+        <item>8.0 / 10.0</item>
+        <item>8.0 / 10.0</item>
+        <item>8.5 / 10.0</item>
+        <item>8.7 / 10.0</item>
+        <item>8.1 / 10.0</item>
+        <item>8.1 / 10.0</item>
+        <item>8.0 / 10.0</item>
+        <item>8.4 / 10.0</item>
+        <!--Tv Show Data-->
+        <item>9.5 / 10.0</item>
+        <item>9.2 / 10.0</item>
+        <item>9.4 / 10.0</item>
+        <item>9.1 / 10.0</item>
+        <item>8.7 / 10.0</item>
+        <item>9.1 / 10.0</item>
+        <item>9.1 / 10.0</item>
+        <item>8.3 / 10.0</item>
+        <item>8.5 / 10.0</item>
+        <item>9.1 / 10.0</item>
+    </string-array>
+
+    <string-array name="data_directed_by_movie">
+        <item>Anthony Russo\nJoe Russo</item>
+        <item>Tim Miller</item>
+        <item>Tatsuya Nagamine</item>
+        <item>Ruben Fleischer</item>
+        <item>Bob Persichetti\nPeter Ramsey\nRodney Rothman</item>
+        <item>Anthony Russo\nJoe Russo</item>
+        <item>James Gunn</item>
+        <item>Jon Watts</item>
+        <item>Tatsuya Nagamine</item>
+        <item>Makoto Shinkai</item>
+        <!--Tv Show Data-->
+        <item>Vince Gilligan</item>
+        <item>Hiromu Arakawa</item>
+        <item>Showrunners D. B. Weiss\nDavid Benioff</item>
+        <item>Shinji Takamatsu\nYoichi Fujita\nChizuru Miyawaki</item>
+        <item>Phil Abraham\nAdam Kane</item>
+        <item>Paul McGuigan\nEuros Lyn</item>
+        <item>Tetsurō Araki\nMasashi Koizuka</item>
+        <item>Michelle MacLaren\nGwyneth Horder-Payton\nJohan Renck\nErnest Dickerson\nGuy Ferland</item>
+        <item>Kōnosuke Uda\nJunji Shimizu\nMunehisa Sakai\nHiroaki Miyamoto\nToshinori Fukazawa\nSatoshi Itō\nTatsuya Nagamine</item>
+        <item>Hiroshi Hamasaki\nTakuya Satō</item>
+    </string-array>
+
+    <string-array name="data_produced_by_movie">
+        <item>Kevin Feige</item>
+        <item>Simon Kinberg\nRyan Reynolds\nLauren Shuler Donner</item>
+        <item>Toei Animation</item>
+        <item>Avi Arad\nMatt Tolmach\nAmy Pascal</item>
+        <item>Avi Arad\nAmy Pascal\nPhil Lord\nChristoper Miller\n Christoper Steinberg</item>
+        <item>Kevin Feige</item>
+        <item>Kevin Feige</item>
+        <item>Kevin Feige\nAmy Pascal</item>
+        <item>Yoshihiko Taneda\nMakoto Seino</item>
+        <item>Noritaka Kawaguchi\nGenki Kawamura</item>
+        <!--Tv Show Data-->
+        <item>Vince Gilligan</item>
+        <item>-</item>
+        <item>Mark Huffam\nJoanna Burn\nFrank Doelger\nChris Newman\nGreg Spence\nLisa McAtackney\nBryan Cogman\nDuncan Muggoch</item>
+        <item>-</item>
+        <item>Marvel Television</item>
+        <item>British network BBC</item>
+        <item>Tetsuya Kinoshita\nKensuke Tateishi\nGeorge Wada\nToshihiro Maeda\nShin Furukawa\nTomohito Nagase\nTetsuya Endō\nYasuyuki Nishiya\nSoya Kiyota</item>
+        <item>AMC Studios</item>
+        <item>Tetsuo Daitoku\nHidekazu Terakawa</item>
+        <item>Kenjirō Gomi\nTakayuki Matsunaga\nYoshito Danno\nShinsaku Tanaka\nKozue Kananiwa\nYoshinao Doi</item>
+    </string-array>
+
+    <string-array name="data_screenplay_movie">
+        <item>Christopher Markus\nStephen McFeely</item>
+        <item>-</item>
+        <item>Akira Toriyama</item>
+        <item>Jeff Pinkner\nScott Rosenberg\nKelly Marcel</item>
+        <item>Phil Lord\nRodney Rothman</item>
+        <item>Christopher Markus\nStephen McFeely</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Osamu Suzuki</item>
+        <item>Makoto Shinkai</item>
+        <!--Tv Show Data-->
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="data_based_on_movie">
+        <item>The Avengers\nby Stan Lee\nJack Kirby</item>
+        <item>Deadpool\nby Fabian Nicieza, Rob Liefeld</item>
+        <item>Dragon Ball\nby Akira Toriyama</item>
+        <item>Venom\nby Todd McFarlane, David Michelinie</item>
+        <item>Spider-Man\nby Stan Lee</item>
+        <item>The Avengers\nby Stan Lee\nJack Kirby</item>
+        <item>Guardians of the Galaxy\nbyDan Abnett, Andy Lanning</item>
+        <item>Spider-Man\nby Stan Lee, Steve Ditko</item>
+        <item>	One Piece\nby Eiichiro Oda</item>
+        <item>-</item>
+        <!--Tv Show Data-->
+        <item>-</item>
+        <item>-</item>
+        <item>A Song of Ice and Fire\nby George R. R. Martin</item>
+        <item>Harada Sanosuke</item>
+        <item>Daredevil\nby Stan Lee, Bill Everett</item>
+        <item>Sherlock Holmes\nby Sir Arthur Conan Doyle</item>
+        <item>-</item>
+        <item>The Walking Dead\nby Robert Kirkman, Tony Moore</item>
+        <item>One Piece\nby Eiichiro Oda</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="data_starring_movie">
+        <item>Robert Downey Jr.\nChris Hemsworth\nMark Ruffalo\nChris Evans\nScarlett Johansson\nBenedict Cumberbatch\nDon Cheadle\nTom Holland\nChadwick Boseman\nPaul Bettany\nElizabeth Olsen\nAnthony Mackie\nSebastian Stan\nDanai Gurira\nLetitia Wright\nDave Bautista\nZoe Saldana\nJosh Brolin\nChris Pratt</item>
+        <item>Ryan Reynolds\nMorena Baccarin\nEd Skrein\nT. J. Miller\nGina Carano\nBrianna Hildebrand</item>
+        <item>Masako Nozawa\nRyō Horikawa\nBin Shimada\nRyūsei Nakao\nAya Hisakawa\nToshio Furukawa\nTakeshi Kusao\nKōichi Yamadera\nMasakazu Morita\nKatsuhisa Hōki</item>
+        <item>Tom Hardy\nMichelle Williams\nRiz Ahmed\nScott Haze\nReid Scott</item>
+        <item>Shameik Moore\nJake Johnson\nHailee Steinfeld\nMahershala Ali\nBrian Tyree Henry\nLily Tomlin\nLuna Lauren Velez\nJohn Mulaney\nKimiko Glenn\nNicolas Cage\nLiev Schreiber</item>
+        <item>Robert Downey Jr.\nChris Hemsworth\nMark Ruffalo\nChris Evans\nScarlett Johansson\nBenedict Cumberbatch\nDon Cheadle\nTom Holland\nChadwick Boseman\nPaul Bettany\nElizabeth Olsen\nAnthony Mackie\nSebastian Stan\nDanai Gurira\nLetitia Wright\nDave Bautista\nZoe Saldana\nJosh Brolin\nChris Pratt</item>
+        <item>Chris Pratt\nZoe Saldana\nDave Bautista\nVin Diesel\nBradley Cooper\nLee Pace\nMichael Rooker\nKaren Gillan\nDjimon Hounsou\nJohn C. Reilly\nGlenn Close\nBenicio del Toro</item>
+        <item>Tom Holland\nSamuel L. Jackson\nZendaya\nCobie Smulders\nJon Favreau\nJ. B. Smoove\nJacob Batalon\nMartin Starr\nMarisa Tomei\nJake Gyllenhaal</item>
+        <item>Mayumi Tanaka\nKazuya Nakai\nAkemi Okamura\nKappei Yamaguchi\nHiroaki Hirata\nIkue Ohtani\nYuriko Yamaguchi\nKazuki Yao\nChō\nHōchū Ōtsuka\nRyoko Shinohara\nTeruyuki Kagawa</item>
+        <item>Ryunosuke Kamiki\nMone Kamishiraishi\nRyo Narita\nAoi Yūki\nNobunaga Shimazaki\nKaito Ishikawa\nKanon Tani\nMasami Nagasawa\nEtsuko Ichihara</item>
+        <!--Tv Show Data-->
+        <item>Bryan Cranston\nAnna Gunn\nAaron Paul\nDean Norris\nBetsy Brandt\nRJ Mitte\nBob Odenkirk\nGiancarlo Esposito\nJonathan Banks\nLaura Fraser\nJesse Plemons</item>
+        <item>-</item>
+        <item>Eddard \"Ned\" Stark\nRobert Baratheon\nJaime Lannister\nCatelyn Stark\nCersei Lannister\nDaenerys Targaryen\nJorah Mormont\nViserys Targaryen\nJon Snow\nSansa Stark</item>
+        <item>-</item>
+        <item>Charlie Cox\nDeborah Ann Woll\nElden Henson\nToby Leonard Moore\nVondie Curtis-Hall\nBob Gunton\nAyelet Zurer\nRosario Dawson\nVincent D\'Onofrio\nJon Bernthal\nÉlodie Yung\nStephen Rider\nJoanne Whalley\nJay Ali\nWilson Bethel</item>
+        <item>Benedict Cumberbatch\nMartin Freeman\nRupert Graves\nUna Stubbs\nMark Gatiss\nLouise Brealey\nAndrew Scott\nAmanda Abbington</item>
+        <item>-</item>
+        <item>Andrew Lincoln\nJon Bernthal\nSarah Wayne Callies\nLaurie Holden\nJeffrey DeMunn\nSteven Yeun\nChandler Riggs\nNorman Reedus\nLauren Cohan\nDanai Gurira\nMichael Rooker\nDavid Morrissey\nMelissa McBride\nScott Wilson\nMichael Cudlitz\nEmily Kinney\nChad L. Coleman\nLennie James\nSonequa Martin-Green\nJeffrey Dean Morgan\nAlanna Masterson\nJosh McDermitt\nChristian Serratos\nSeth Gilliam\nRoss Marquand\nKatelyn Nacon\nTom Payne\nKhary Payton\nSamantha Morton</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="data_music_by_movie">
+        <item>Alan Silvestri</item>
+        <item>Tom Holkenborg</item>
+        <item>Norihito Sumitomo</item>
+        <item>Ludwig Göransson</item>
+        <item>Daniel Pemberton</item>
+        <item>Alan Silvestri</item>
+        <item>Tyler Bates</item>
+        <item>Michael Giacchino</item>
+        <item>Kohei Tanaka\nShirō Hamaguchi</item>
+        <item>Radwimps</item>
+        <!--Tv Show Data-->
+        <item>-</item>
+        <item>-</item>
+        <item>Ramin Djawadi</item>
+        <item>Audio Highs</item>
+        <item>John Paesano\nBraden Kimball</item>
+        <item>David Arnold\nMichael Price.</item>
+        <item>Hiroyuki Sawano</item>
+        <item>Bear McCreary</item>
+        <item>Toshiya Motomichi</item>
+        <item>Jun Murakami\nTakeshi Abo</item>
+    </string-array>
+
+    <string-array name="data_cinematography_movie">
+        <item>Trent Opaloch</item>
+        <item>Ken Seng</item>
+        <item>-</item>
+        <item>Matthew Libatique</item>
+        <item>-</item>
+        <item>Trent Opaloch</item>
+        <item>Ben Davis</item>
+        <item>Matthew J. Lloyd</item>
+        <item>Takeo Ogiwara</item>
+        <item>Makoto Shinkai</item>
+        <!--Tv Show Data-->
+        <item>Michael Slovis\nReynaldo Villalobos\nArthur Albert\nJohn Toll\nNelson Cragg</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Matthew J. Lloyd\nMartin Ahlgren\nPetr Hlinomaz</item>
+        <item>Fabian Wagner\nSteve Lawes</item>
+        <item>-</item>
+        <item>Rohn Schmidt\nDavid Boyd\nMichael E. Satrazemis\nStephen Campbell\nDavid Tattersall</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="data_edited_by_movie">
+        <item>Jeffrey Ford\nMatthew Schmidt</item>
+        <item>Julian Clarke</item>
+        <item>-</item>
+        <item>Maryann Brandon\nAlan Baumgarten</item>
+        <item>Robert Fisher Jr.</item>
+        <item>Jeffrey Ford\nMatthew Schmidt</item>
+        <item>Fred Raskin\nCraig Wood\nHughes Winborne</item>
+        <item>Dan Lebental\nLeigh Folsom-Boyd</item>
+        <item>Nobuhiro Maki</item>
+        <item>Makoto Shinkai</item>
+        <!--Tv Show Data-->
+        <item>Kelley Dixon</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Jonathan Chibnall\nMonty DeGraff\nJo Francis\nMichael N. Knue\nDamien Smith</item>
+        <item>Charlie Phillips\nMali Evans\nTim Porter\nYan Miles</item>
+        <item>-</item>
+        <item>Julius Ramsay\nHunter M. Via\nAvi Youabian\nDan Liu\nNathan Gunn\nRachel Goodlett Katz\nKelley Dixon</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="data_production_companies_movie">
+        <item>Marvel Studios</item>
+        <item>Marvel Entertainment\nKinberg Genre\nThe Donners\' Company\nTSG Entertainment</item>
+        <item>Toei Animation</item>
+        <item>Columbia Pictures\nMarvel Entertainment\nTencent Pictures\nArad Productions\nMatt Tolmach Productions\nPascal Pictures</item>
+        <item>Columbia Pictures\nSony Pictures Animation\nMarvel Entertainment\nArad Productions\nLord Miller Productions\nPascal Pictures</item>
+        <item>Marvel Studios</item>
+        <item>Marvel Studios</item>
+        <item>Columbia Pictures\nMarvel Studios\nPascal Pictures</item>
+        <item>Toei Animation</item>
+        <item>CoMix Wave Films</item>
+        <!--Tv Show Data-->
+        <item>High Bridge Entertainment\nGran Via Productions\nSony Pictures Television</item>
+        <item>Bones</item>
+        <item>Television 360\nGrok! Television\nGenerator Entertainment\nStartling Television\nBighead Littlehead</item>
+        <item>Sunrise</item>
+        <item>Marvel Television\nABC Studios\nDeKnight Productions\nGoddard Textiles</item>
+        <item>Hartswood Films\nBBC Wales\nWGBH</item>
+        <item>Wit Studio\nProduction I.G</item>
+        <item>Idiot Box Productions\nCircle of Confusion\nSkybound Entertainment\nValhalla Entertainment\nAMC Studios</item>
+        <item>Production I.G</item>
+        <item>White Fox</item>
+    </string-array>
+
+    <string-array name="data_distributed_by_movie">
+        <item>Walt Disney Studios\nMotion Pictures</item>
+        <item>	20th Century Fox</item>
+        <item>Toei Company\n20th Century Fox Japan</item>
+        <item>Sony Pictures Releasing</item>
+        <item>Sony Pictures Releasing</item>
+        <item>Walt Disney Studios\nMotion Pictures</item>
+        <item>Walt Disney Studios\nMotion Pictures</item>
+        <item>Sony Pictures Releasing</item>
+        <item>Toei Company</item>
+        <item>Toho</item>
+        <!--Tv Show Data-->
+        <item>Sony Pictures Television</item>
+        <item>-</item>
+        <item>Warner Bros. Television Distribution</item>
+        <item>-</item>
+        <item>Netflix</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Walt Disney Television\nEntertainment One\nAMC Networks\n20th Television</item>
+        <item>Madman Entertainment</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="data_running_time_movie">
+        <item>149 minutes</item>
+        <item>108 minutes</item>
+        <item>100 minutes</item>
+        <item>112 minutes</item>
+        <item>117 minutes</item>
+        <item>181 minutes</item>
+        <item>122 minutes</item>
+        <item>129 minutes</item>
+        <item>107 minutes</item>
+        <item>107 minutes</item>
+        <!--Tv Show Data-->
+        <item>43–58 minutes</item>
+        <item>24 minutes</item>
+        <item>50–82 minutes</item>
+        <item>24 minutes</item>
+        <item>48–61 minutes</item>
+        <item>85–90 minutes</item>
+        <item>24 minutes</item>
+        <item>41–67 minutes</item>
+        <item>24 minutes</item>
+        <item>24 minutes</item>
+    </string-array>
+
+    <string-array name="data_release_date_movie">
+        <item>April 25, 2018</item>
+        <item>February 10, 2016</item>
+        <item>February 16, 2019</item>
+        <item>October 03, 2018</item>
+        <item>December 12, 2018</item>
+        <item>April 26, 2019</item>
+        <item>July 21, 2014</item>
+        <item>July 02, 2019</item>
+        <item>December 15, 2012</item>
+        <item>August 26, 2016</item>
+        <!--Tv Show Data-->
+        <item>January 20, 2008</item>
+        <item>March 29, 2006</item>
+        <item>April 17, 2011</item>
+        <item>December 8, 2003</item>
+        <item>April 10, 2015</item>
+        <item>25 July 2010</item>
+        <item>November 22, 2014</item>
+        <item>October 31, 2010</item>
+        <item>July 26, 1998</item>
+        <item>October 14, 2014</item>
+    </string-array>
+
+    <string-array name="data_description_movie">
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Wade Wilson is a dishonorably discharged special forces operative working as a mercenary when he meets Vanessa, a prostitute. They become romantically involved, and a year later she accepts his marriage proposal. Wilson is diagnosed with terminal cancer, and leaves Vanessa without warning so she will not have to watch him die.</item>
+        <item>Set after the events of the Universe Survival Saga depicted in Dragon Ball Super, the film follows series protagonists Goku and Vegeta as they encounter a powerful Saiyan named Broly. In the beginning, it tells the history of the Saiyans and the background story of these three Saiyans with different destinies connected to the turbulent period of their race, and later resulting in a massive fight between them</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson \"Kingpin\" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
+        <item>Twenty-three days after Thanos used the Infinity Gauntlet to disintegrate half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and returns them to Earth. They reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket, and they find Thanos on an otherwise uninhabited planet. They plan to retake and use the Infinity Stones to reverse the disintegrations, but Thanos reveals he destroyed them to prevent further use. An enraged Thor decapitates Thanos.</item>
+        <item>In 1988, following his mother\'s death, a young Peter Quill is abducted from Earth by the Ravagers, a group of alien thieves and smugglers led by Yondu Udonta. Twenty-six years later on the planet Morag, Quill steals a mysterious orb but is attacked by Korath, a subordinate to the fanatical Kree militant, Ronan. Although Quill escapes with the orb, Yondu discovers his theft and issues a bounty for his capture, while Ronan sends the assassin Gamora after the orb.</item>
+        <item>In Ixtenco, Nick Fury and Maria Hill investigate an unnatural storm and later encounter the Earth Elemental. A super-powered man, Quentin Beck, arrives to fight the creature. Eight months later, in New York City, the Midtown School of Science and Technology restarts its academic year to accommodate the students who were among those resurrected in the Blip. The school organizes a two-week summer field trip to Europe, where Peter Parker, still distraught over Tony Stark\'s death, plans to confess his growing feelings for classmate MJ and avoid heroics. At a fundraiser for the homeless coordinated by his Aunt May, Parker is forewarned by Happy Hogan that he will be contacted by Nick Fury, but Parker chooses to ignore the call. Parker leaves after being overwhelmed by questions about Stark.</item>
+        <item>"Black Arm" Zephyr (黒腕のゼファー Kokuwan no Zefā), a former naval admiral and leader of the Neo Marines which also includes his henchmen Ain (アイン) and Binz (ビンズ Binzu), commences an assault on the navy on Firs Island, a volcanic island and one of the End Points. While there, Zephyr steals the Dyna Stones and fights Kizaru before he starts an eruption to defeat the Admiral only to be sent flying into the ocean. While having a cherry blossom party, the Straw Hat Pirates discovers and heals Zephyr. When Zephyr learns that Monkey D. Luffy is a pirate, he fights Luffy, Roronoa Zoro and Sanji. Having discovered Zephyr\'s location with a Vivre Card, Ain and Binz join the ex-Admiral to fight them. Ain uses her Devil Fruit powers to de-age Nami, Tony Tony Chopper, Brook and Nico Robin, while Binz uses his Devil Fruit powers to trap Franky, Usopp and Brook with vines. Realizing that Luffy is the grandson of Monkey D. Garp, Zephyr attempts to kill them, but the Straw Hats are forced to flee. At Marine Headquarters, the navy discovers Zephyr\'s whereabouts and decide to recover the Dyna Stones.</item>
+        <item>High school girl Mitsuha Miyamizu lives in the fictional town of Itomori in Japan\'s mountainous Hida region. She is bored with the country life, and wishes to be a handsome boy in her next life. She begins switching bodies intermittently with Taki Tachibana, a high school boy in Tokyo, when they wake up. They communicate by writing messages on paper, their phones, and sometimes on each other\'s skin. Mitsuha causes Taki to develop a relationship with his coworker Miki, while Taki causes Mitsuha to become popular in school.</item>
+        <!--Tv Show Data-->
+        <item>Set in Albuquerque, New Mexico between 2008 and 2010, Breaking Bad follows Walter White as he is transformed from a meek high school science teacher who wants to provide for his family into a ruthless player in the local methamphetamine drug trade as a result of being diagnosed with terminal lung cancer. Initially making only small batches of meth with his former student Jesse Pinkman in a rolling meth lab, Walter and Jesse eventually expand to make larger batches of a special blue meth that is incredibly pure and creates high demand. Walter takes on the name "Heisenberg" to mask his identity. Because of his drug-related activities, Walt eventually finds himself at odds with his family, the Drug Enforcement Administration (DEA) through his brother-in-law Hank Schrader, the local gangs, and the Mexican drug cartels and their regional distributors, putting his life at risk.</item>
+        <item>Edward and Alphonse Elric live in the rural town of Resembool with their mother Trisha, their father Van Hohenheim having left without a reason. Edward bears a grudge against their father as he and Alphonse showed a talent for alchemy before Trisha died of the plague. After finishing their alchemy training under Izumi Curtis, the brothers attempt to bring their mother back with alchemy. But the transmutation backfires and in law with equivalent exchange, Edward loses his left leg while Alphonse is dragged into the Gate of Truth. Edward sacrifices his right arm to retrieve Alphonse\'s soul, binding it to a suit of armor with a blood seal. Edward is invited by Roy Mustang to become a State Alchemist to research a way to restore Alphonse\'s body, passing his exams while given the title of Fullmetal Alchemist based on his prosthetic automail limbs and use of metal in his alchemy. The Elrics spent the next three years searching for the mythical Philosopher\'s Stone to achieve their goals. One such lead results in them exposing a corrupt religious leader in the city of Liore while unaware of events occurring behind the scenes by the mysterious Homunculi.</item>
+        <item>In the Seven Kingdoms of Westeros, a soldier of the ancient Night\'s Watch order survives an attack by supernatural creatures known as the White Walkers, thought until now to be mythical. He attempts to abandon the order but is captured and sent to Castle Winterfell, which is ruled by Eddard "Ned" Stark, Warden of the North, who decapitates the soldier for desertion. In King\'s Landing, the capital, Jon Arryn, the King\'s Hand, dies under mysterious circumstances. King Robert Baratheon, Ned\'s longtime friend, travels to Winterfell to offer the position to him and propose marriage between his firstborn son Joffrey and Ned\'s older daughter Sansa. Ned\'s wife Catelyn receives a letter from her sister Lysa, Arryn\'s widow, saying that she has escaped King\'s Landing and that Arryn was murdered by the Lannisters, Queen Cersei\'s family. Catelyn burns the letter and tells Ned about it, believing that the Lannisters are plotting against Robert. Ned\'s 10-year-old son, Brandon, climbs a tower, where he witnesses Cersei having sex with her twin brother, Jaime, who then pushes him out the window from a presumably fatal height. Meanwhile across the narrow sea in Essos, the exiled Prince Viserys Targaryen makes a deal with the Dothraki warlord Khal Drogo, who marries Viserys\' younger sister, Daenerys, in exchange for providing Viserys an army to conquer Westeros and reclaim the Iron Throne.</item>
+        <item>The story is set in an alternate late-Edo period, where humanity is attacked by aliens called \"Amanto\" (天人, \"Sky People\"), and the samurai of Japan join the battle against the aliens, but when the shōgun realizes the power of aliens, he betrays the samurai and surrenders to the aliens. The shōgun writes an unequal contract with aliens which allows the aliens to enter the country and places a ban on carrying swords in public. The swords of samurai are taken away so they can no longer resist the aliens. After that, the shogunate becomes a puppet government. The plot is focused on an eccentric samurai, Gintoki Sakata (a.k.a. Odd Jobs Gin), who helps a teenager named Shinpachi Shimura save his sister Tae from a group of aliens who want to make her part of a brothel. Impressed with Gintoki, Shinpachi becomes his apprentice and works with him as a freelance odd-jobs man in order to pay the monthly rent on Gintoki\'s combination home and office, as well as to know more about him. The two of them rescue a teenage alien girl named Kagura from a group of Yakuza who wanted to use her superhuman strength to kill people. Kagura joins Shinpachi and Gintoki to work as freelancers and the three become known as \"Yorozuya\" (万事屋, \"We do everything\" or literally \"The Anything Store\").</item>
+        <item>Criminals, including the Russian mafia, Yakuza, and Chinese, have taken advantage of Hell\'s Kitchen\'s circumstances since \"the incident\". Blinded as a boy in an accident that gave him heightened senses, Matt Murdock begins fighting this rising criminal element by night as a costumed vigilante while opening a law firm with his friend, Foggy Nelson. Their first client is Karen Page, a secretary for construction company Union Allied, who has been framed for the murder of her co-worker, Daniel Fisher, after accidentally uncovering a pension embezzlement scheme. Murdock prevents Karen from being prosecuted and protects her from an assassin, before exposing the scandal through Ben Urich at The New York Bulletin. Grateful for their help, Page offers to work for Murdock and Nelson. James Wesley covers up the involvement of his employer in the scandal, and orders Anatoly and Vladamir Ranskahov, the Russians\' leaders, to deal with Murdock (\"the man in black\"): they kidnap a young boy to lure him into a trap. When Murdock was a boy, his father was murdered for winning a match he was told to throw. Now, after failing to rescue the kidnapped boy, a severely injured Murdock is found in a dumpster by nurse Claire Temple. Nelson meanwhile attempts to comfort Page following her recent traumatic experiences. Temple takes Murdock to her apartment, tends to his wounds, and removes his mask, discovering his blindness. He refuses to reveal his name, but does reveal his heightened senses when they alert him to a Russian who is searching the apartment building, giving Temple time to hide Murdock and convince the man that she knows nothing. Murdock realizes that the man did not believe her, and overpowers him, taking him to the roof. Murdock and Temple torture him into revealing the boy\'s location, before Murdock pushes him off the roof and into the same dumpster. He barely survives. Murdock enters the building where they are keeping the boy, defeats the guards, and rescues him.</item>
+        <item>Sherlock depicts \"consulting detective\" Sherlock Holmes (Benedict Cumberbatch) solving various mysteries in modern-day London. Holmes is assisted by his flatmate and friend, Dr. John Watson (Martin Freeman), who has returned from military service in Afghanistan with the Royal Army Medical Corps. Although Metropolitan Police Service Detective Inspector Greg Lestrade (Rupert Graves) and others are suspicious of Holmes at first, over time, his exceptional intellect and bold powers of observation persuade them of his value. In part through Watson\'s blog documenting their adventures, Holmes becomes a reluctant celebrity with the press reporting on his cases and eccentric personal life. Both ordinary people and the British government ask for his help. Although the series depicts a variety of crimes and perpetrators, Holmes\' conflict with nemesis Jim Moriarty (Andrew Scott) is a recurring feature. Molly Hooper (Louise Brealey), a pathologist at St. Bart\'s Hospital, occasionally assists Holmes in his cases. Other recurring roles include Una Stubbs as Mrs. Hudson, Holmes and Watson\'s landlady, and series co-creator Mark Gatiss as Holmes\' elder brother Mycroft.</item>
+        <item>In an alternate reality, a human named Ymir Fritz became a humanoid giant called a Titan (巨人 Kyojin) 1,800 years ago after making a contract with the \"Devil of All Earth\". Though she died 13 years later as side-effect of her new power, it was divided and passed on through her daughters before being divided into nine individuals who established the Eldian Empire. The Founding Titan remained with the Fritz family as they conquered the Marley nation and ruled over it for 1,700 years. But a century before the events of the main storyline, the Eldian king Karl Fritz was disillusioned by his family legacy and orchestrated his nation\'s downfall with Marley making the Eldians that remained into second class citizens while threatening to exile them to Paradis as mindless Pure Titans. Karl took the remainder to the island of Paradis and used countless Colossal Titan bodies to construct a walled city with three enormous curtain walls: the outermost being Wall Maria (ウォール・マリア Wōru Maria); the middle wall is Wall Rose (ウォール・ローゼ Wōru Rōze, sometimes pronounced like rosé) and the innermost is Wall Sheena (ウォール・シーナ Wōru Shīna, alt. \"Wall Sina\"). Karl then used the Founding Titan\'s power to erase the memories of most of the Eldians with those unaffected either bribed into nobility or made into outcasts like the Ackerman family who served the Fritz family. Due to the Founding Titan\'s power, Karl influenced his direct descendants into continuing his work of ruling the Eldians within the walls through promoting fear of attack by Titans, who are Eldians that the Marleyians transformed and exiled on Paradis to terrorize the island\'s residents.</item>
+        <item>The Walking Dead takes place after the onset of a worldwide zombie apocalypse. The zombies, colloquially referred to as \"walkers\", shamble towards living humans and other creatures to eat them; they are attracted to noise, such as gunshots, and to different scents, e.g. humans. Although it initially seems that only humans that are bitten or scratched by walkers can turn into other walkers, it is revealed early in the series that all living humans carry the pathogen responsible for the mutation. The mutation is activated after the death of the pathogen\'s host, and the only way to permanently kill a walker is to damage its brain or destroy the body, such as by cremating it. The series centers on sheriff\'s deputy Rick Grimes, who wakes up from a coma. While in a coma, the world has been taken over by \"zombies.\" He becomes the leader of a group of survivors from the Atlanta, Georgia, region as they attempt to sustain and protect themselves not only against attacks by walkers but by other groups of survivors willing to use any means necessary to stay alive.</item>
+        <item>The series focuses on Monkey D. Luffy, a young man who, inspired by his childhood idol and powerful pirate \"Red Haired\" Shanks, sets off on a journey from the East Blue Sea to find the famed treasure One Piece and proclaim himself the King of the Pirates. In an effort to organize his own crew, the Straw Hat Pirates (麦わら海賊団篇 Mugiwara Kaizoku-danhen), Luffy rescues and befriends a swordsman named Roronoa Zoro, and they head off in search of the One Piece. They are joined in their journey by Nami, a navigator and thief; Usopp, a sniper and a liar; and Sanji, a womanizing chef. They acquire a ship named the Going Merry and engage in confrontations with notorious pirates of the East Blue. As Luffy and his crew set out on their adventures, others join the crew later in the series, including Tony Tony Chopper, a doctor and anthropomorphized reindeer; Nico Robin, an archaeologist and former assassin; Franky, a cyborg shipwright; Brook, a skeletal musician and swordsman; and Jinbe, a fishman helmsman; and they also acquire a new ship named the Thousand Sunny.</item>
+        <item>It is set in 2010 in Akihabara, Tokyo, and follows Rintaro Okabe, a self-proclaimed \"mad scientist\", who runs the \"Future Gadget Laboratory\" in an apartment together with his friends Mayuri Shiina and Itaru \"Daru\" Hashida. While attending a conference about time travel, Okabe finds the dead body of Kurisu Makise, a neuroscience researcher; he sends a text message about it to Daru, and later discovers that Kurisu is alive, and that the message arrived before he sent it. The laboratory members learn that the cell phone-operated microwave oven they are developing can send text messages back in time; they are joined by Kurisu, and investigate it, sending text messages – referred to as \"D-mails\" – to the past to change the present. Kurisu eventually creates a device that can send memories through the microwave oven, effectively allowing the user to time travel. SERN, a fictional organization based on CERN secretly researching time travel, learns of the time machine and sends people to the laboratory to retrieve it, killing Mayuri in the process. Okabe goes back in time multiple times to prevent Mayuri\'s death, but fails each time. He learns that he needs to undo all the changes their D-mails have caused, and does so until he realizes that undoing the first D-mail would return him to the timeline where Kurisu was found dead. Okabe and Kurisu tell each other about their romantic feelings for one another, after which Kurisu tells Okabe to save Mayuri. Daru hacks into SERN\'s database, and they delete the record of the D-mail, returning them to the original timeline.</item>
+    </string-array>
+
+    <string-array name="data_poster_movie">
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_venom</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_avengersendgame</item>
+        <item>@drawable/poster_guardian</item>
+        <item>@drawable/poster_spiderman_far_from_home</item>
+        <item>@drawable/poster_one_piece_z</item>
+        <item>@drawable/poster_kimi_no_nawa</item>
+        <!--Tv Show Data-->
+        <item>@drawable/breaking_bad</item>
+        <item>@drawable/fullmetal_alchemist</item>
+        <item>@drawable/game_of_throne</item>
+        <item>@drawable/gintama</item>
+        <item>@drawable/dare_devil</item>
+        <item>@drawable/sherlock</item>
+        <item>@drawable/shingeki_no_kyojin</item>
+        <item>@drawable/the_walking_dead</item>
+        <item>@drawable/one_piece</item>
+        <item>@drawable/steins_gate</item>
+    </string-array>
+
+</resources>
